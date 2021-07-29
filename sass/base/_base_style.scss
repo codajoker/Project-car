@@ -1,0 +1,78 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+button,
+button:active,
+button:focus,
+input,
+input:active,
+input:focus,
+textarea,
+textarea:active,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 1140px;
+  height: 100%;
+  padding: 0px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+section {
+  background-color: $second-color;
+  padding-top: 160px;
+}

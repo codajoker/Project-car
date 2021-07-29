@@ -1,0 +1,17 @@
+.decor-block {
+  background: #393f47;
+}
+.services__decor {
+  position: absolute;
+
+  width: 755px;
+  height: 561px;
+  &--left {
+    top: 0;
+    left: 0;
+  }
+  &--right {
+    top: 0;
+    right: 0;
+  }
+}

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>CAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__contact">
+        <div class="container">
+          <ul class="contact-list list">
+            <li class="contact-lict__item">
+              <ul class="languages list">
+                <languages__item
+                  ><a
+                    href="#"
+                    class="contact-list__link languages__link languages__link--active link"
+                    >РУС</a
+                  ></languages__item
+                >
+                <languages__item
+                  ><a href="#" class="contact-list__link languages__link link" lang="en"
+                    >ENG
+                  </a></languages__item
+                >
+                <languages__item
+                  ><a href="#" class="contact-list__link languages__link link" lang="fr"
+                    >FR</a
+                  ></languages__item
+                >
+              </ul>
+            </li>
+            <li class="contact-lict__item">
+              <a href="tel:8(800)1234567" class="contact-list__link link">8 (800) 123-45-67</a>
+            </li>
+            <li class="contact-lict__item">
+              <a href="mailto:sales@log.ru" class="contact-list__link link">sales@log.ru</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav class="nav">
+        <div class="nav_container container">
+          <a href="" class="logo link"
+            ><svg class="logo__icon" width="160" height="46">
+              <use href="./images/deckstope/sprite.svg#icon-logo"></use></svg
+          ></a>
+          <a href="#" class="office-link link">
+            <svg class="office-link__icon" width="25" height="25">
+              <use href="./images/deckstope/sprite.svg#icon-placeholder"></use>
+            </svg>
+            Наши офисы
+          </a>
+          <ul class="menu list">
+            <li class="menu__item"><a href="#" class="menu__link link">услуги</a></li>
+            <li class="menu__item"><a href="#" class="menu__link link">О компании</a></li>
+            <li class="menu__item"><a href="#" class="menu__link link">вакансии</a></li>
+            <li class="menu__item"><a href="#" class="menu__link link">контакты</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__text">
+            <h1 class="hero__title">Грузовые перевозки</h1>
+            <p class="hero__descr">
+              Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование,
+              страхование, упаковка и хранение грузов
+            </p>
+          </div>
+          <svg class="hero__mouse" width="30" height="30">
+            <use href="./images/deckstope/sprite.svg#icon-mouse"></use>
+          </svg>
+        </div>
+      </section>
+      <section class="services">
+        <div class="services__container container">
+          <div class="decor-block services__decor services__decor--left"></div>
+          <div class="services-text">
+            <h2 class="title">грузоперевозки по европе</h2>
+            <p class="descr">Страны Евросоюза, а также Украина, Белоруссия со всеми документами.</p>
+            <a href="services-tex__link link">ПОДРОБНЕЕ</a>
+          </div>
+          <picture>
+            <source
+              srcset="./images/deckstope/Rectangle4.webp 1x, ./images/deckstope/Rectangle4@2x.webp"
+              type="image/webp"
+            />
+            <img
+              src="./images/deckstope/Rectangle 4@2x.png"
+              alt="Желтый грузовик"
+              class="services__img"
+              width="445px"
+              height="266px"
+            />
+          </picture>
+
+          <ul class="arrows list">
+            <li class="arrows__item">
+              <a href="" class="arrows__link link">
+                <svg class="arrows__icon" width="65">
+                  <use href="./images/deckstope/sprite.svg#icon-Arrow"></use>
+                </svg>
+                след
+              </a>
+            </li>
+            <li class="arrows__item">
+              <a href="" class="arrows__link link">
+                <svg class="arrows__icon" width="65">
+                  <use href="./images/deckstope/sprite.svg#icon-Arrow"></use>
+                  Назад
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <div class="decor-block services__decor services__decor--right"></div>
+        </div>
+      </section>
+      <section class="offers">
+        <div class="container">
+          <h2 class="title">услуги</h2>
+          <ul class="offers-list list">
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+            <li class="offers-list__item">
+              <a href="" class="offers-list__link link">
+                <div class="elipse">
+                  <svg class="offers-list__icon" width="30" height="30">
+                    <use href="./images/deckstope/sprite.svg#icon-airplane-flight"></use>
+                  </svg>
+                </div>
+                <p class="offers-list__text">Авиаперевозки</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="specification">
+        <div class="container">
+          <div class="specification__text">
+            <h2 class="title">О компании</h2>
+            <p class="descr">
+              Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+              является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время
+              некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+              Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без
+              заметных изменений пять веков, но и перешагнул в электронный дизайн.
+            </p>
+          </div>
+          <div class="decor-block specification__decor"></div>
+        </div>
+        <ul class="specification-list list">
+          <li class="specification-list__item">
+            <p>48</p>
+            <p>офисов</p>
+            <p>В Европе и СНГ</p>
+          </li>
+          <li class="specification-list__item">
+            <p>361</p>
+            <p>грузовиков</p>
+            <p>Volvo, Scania</p>
+          </li>
+          <li class="specification-list__item">
+            <img
+              src="./images/deckstope/Rectangle2.2@2x.jpg"
+              alt="Едет грузовик"
+              width="200px"
+              height="160px"
+            />
+          </li>
+          <li class="specification-list__item">
+            <img
+              src="./images/deckstope/Rectangle2.2@2x.jpg"
+              alt="Едет грузовик"
+              width="200px"
+              height="160px"
+            />
+          </li>
+          <li class="specification-list__item">
+            <p>1500</p>
+            <p>сотрудников</p>
+            <p>профессионалов</p>
+          </li>
+        </ul>
+      </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.723140738644!2d30.326751215895953!3d50.446257395547725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cb5c1a02cca9%3A0x5351b21373eb0396!2z0KHQstGP0YLQvtGI0LjQvdGB0LrQuNC5INGA0LDQudC-0L0sINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1627415249096!5m2!1sru!2sua"
+          width="1920"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <a href="" class="logo footer__logo link">
+          <svg class="logo__icon" width="160" height="46">
+            <use href="./images/deckstope/sprite.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <address class="address">
+          <a
+            href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.723140738644!2d30.326751215895953!3d50.446257395547725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cb5c1a02cca9%3A0x5351b21373eb0396!2z0KHQstGP0YLQvtGI0LjQvdGB0LrQuNC5INGA0LDQudC-0L0sINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1627415249096!5m2!1sru!2sua"
+            class="address__link link"
+            >123456, Санкт-Петербург, Невский пр-кт 127</a
+          >
+          <a href="mailto:sales@log.ru" class="address__link link link--black">sales@log.ru</a>
+        </address>
+        <ul class="tel-list list">
+          <li class="tel-list__item">
+            <a href="tel:+78123445665" class="tel-list__link link">+7 (812) 344-56-65</a>
+          </li>
+          <li class="tel-list__item">
+            <a href="tel:+78123555665" class="tel-list__link link">+7 (812) 355-56-65</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

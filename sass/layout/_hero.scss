@@ -1,0 +1,42 @@
+.hero {
+  background-image: linear-gradient(0deg, rgba(47, 52, 58, 0.75), rgba(47, 52, 58, 0.75)),
+    url(../images/deckstope/first-screen.jpg);
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(0deg, rgba(47, 52, 58, 0.75), rgba(47, 52, 58, 0.75)),
+      url(../images/deckstope/first-screen@2x.jpg);
+  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #c4c4c4;
+  text-align: center;
+  height: 620px;
+  padding-top: 155px;
+}
+.hero__text {
+  width: 920px;
+  display: block;
+  margin: 0 auto;
+  padding: 45px 70px;
+  border: 1px solid $accent-color;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: $primary-text-color;
+}
+.hero__descr {
+  margin-top: 45px;
+  font-size: 18px;
+  line-height: 1.55;
+
+  color: $primary-text-color;
+}
+.hero__mouse {
+  margin-top: 140px;
+}
